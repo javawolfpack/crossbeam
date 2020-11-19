@@ -42,7 +42,7 @@
 //! }
 //! ```
 
-use crossbeam_channel::{bounded, select};
+use crossbeam::channel::{bounded, select};
 use crossbeam_utils::thread;
 
 fn main() {

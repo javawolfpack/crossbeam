@@ -2,7 +2,7 @@
 
 extern crate test;
 
-use crossbeam_channel::{bounded, unbounded};
+use crossbeam::channel::{bounded, unbounded};
 use crossbeam_utils::thread::scope;
 use test::Bencher;
 

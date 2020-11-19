@@ -121,7 +121,7 @@ struct Position<T> {
 /// # Examples
 ///
 /// ```
-/// use crossbeam_queue::SegQueue;
+/// use crossbeam::queue::SegQueue;
 ///
 /// let q = SegQueue::new();
 ///
@@ -152,7 +152,7 @@ impl<T> SegQueue<T> {
     /// # Examples
     ///
     /// ```
-    /// use crossbeam_queue::SegQueue;
+    /// use crossbeam::queue::SegQueue;
     ///
     /// let q = SegQueue::<i32>::new();
     /// ```
@@ -175,7 +175,7 @@ impl<T> SegQueue<T> {
     /// # Examples
     ///
     /// ```
-    /// use crossbeam_queue::SegQueue;
+    /// use crossbeam::queue::SegQueue;
     ///
     /// let q = SegQueue::new();
     ///
@@ -269,7 +269,7 @@ impl<T> SegQueue<T> {
     /// # Examples
     ///
     /// ```
-    /// use crossbeam_queue::SegQueue;
+    /// use crossbeam::queue::SegQueue;
     ///
     /// let q = SegQueue::new();
     ///
@@ -369,7 +369,7 @@ impl<T> SegQueue<T> {
     /// # Examples
     ///
     /// ```
-    /// use crossbeam_queue::SegQueue;
+    /// use crossbeam::queue::SegQueue;
     ///
     /// let q = SegQueue::new();
     ///
@@ -388,7 +388,7 @@ impl<T> SegQueue<T> {
     /// # Examples
     ///
     /// ```
-    /// use crossbeam_queue::SegQueue;
+    /// use crossbeam::queue::SegQueue;
     ///
     /// let q = SegQueue::new();
     /// assert_eq!(q.len(), 0);

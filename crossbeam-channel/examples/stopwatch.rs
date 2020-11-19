@@ -11,7 +11,7 @@ fn main() {
     use std::thread;
     use std::time::{Duration, Instant};
 
-    use crossbeam_channel::{bounded, select, tick, Receiver};
+    use crossbeam::channel::{bounded, select, tick, Receiver};
     use signal_hook::iterator::Signals;
     use signal_hook::SIGINT;
 

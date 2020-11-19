@@ -1053,7 +1053,7 @@ macro_rules! crossbeam_channel_internal {
 /// Block until a send or a receive operation is selected:
 ///
 /// ```
-/// use crossbeam_channel::{select, unbounded};
+/// use crossbeam::channel::{select, unbounded};
 ///
 /// let (s1, r1) = unbounded();
 /// let (s2, r2) = unbounded();
@@ -1074,7 +1074,7 @@ macro_rules! crossbeam_channel_internal {
 /// ```
 /// use std::thread;
 /// use std::time::Duration;
-/// use crossbeam_channel::{select, unbounded};
+/// use crossbeam::channel::{select, unbounded};
 ///
 /// let (s1, r1) = unbounded();
 /// let (s2, r2) = unbounded();
@@ -1101,7 +1101,7 @@ macro_rules! crossbeam_channel_internal {
 /// ```
 /// use std::thread;
 /// use std::time::Duration;
-/// use crossbeam_channel::{select, unbounded};
+/// use crossbeam::channel::{select, unbounded};
 ///
 /// let (s1, r1) = unbounded();
 /// let (s2, r2) = unbounded();
@@ -1128,7 +1128,7 @@ macro_rules! crossbeam_channel_internal {
 /// ```
 /// use std::thread;
 /// use std::time::Duration;
-/// use crossbeam_channel::{select, never, unbounded};
+/// use crossbeam::channel::{select, never, unbounded};
 ///
 /// let (s1, r1) = unbounded();
 /// let (s2, r2) = unbounded();
